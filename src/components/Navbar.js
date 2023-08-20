@@ -6,7 +6,6 @@ import { faHouse, faFilePen, faArrowRightToBracket, faArrowRightFromBracket } fr
 
 
 function Navbar({ isAuth }) {
-  console.log(isAuth);
   return (
     <nav>
       <Link to={"/"}><FontAwesomeIcon icon={faHouse} />ホーム</Link>
